@@ -233,11 +233,14 @@ hr {
 }
 
 footer {
-  margin: 1rem 0;
+  margin: 1rem 0 0;
+  padding: 0.5rem 0;
   width: 100vw;
-  background-color: gray;
+  background-color: rgba(19, 19, 19, 0.7);
   font-size: 0.8rem;
   font-weight: 100;
+  position: absolute;
+  bottom: 0;
 }
 
 @media (max-width: 1000px) {
@@ -307,5 +310,9 @@ footer {
 
   .logos li {
     margin: 1rem 0;
+  }
+
+  footer {
+    position: relative;
   }
 }
